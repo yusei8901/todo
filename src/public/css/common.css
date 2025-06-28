@@ -1,0 +1,15 @@
+.header {
+    padding: 10px;
+    background-color: #000;
+}
+.header-inner {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+.header-logo {
+    margin: 0px;
+}
+.header-link {
+    color: #fff;
+    text-decoration: none;
+}

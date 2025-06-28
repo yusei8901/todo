@@ -1,0 +1,70 @@
+.notification-wrapper {
+    background-color: #d1e7dd;
+    padding: 15px 30px;
+}
+.notification-text {
+    color: #0f5132;
+    margin: 0px;
+}
+.main-wrapper {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.registration-wrapper {
+    margin-bottom: 50px;
+}
+.registration-form {
+    display: flex;
+    justify-content: space-between;
+}
+.registration-todo {
+    width: 70%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid rgb(211, 211, 211);
+}
+.btn-registration {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.todo-title-wrapper {
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.todo-title {
+    margin: 0px;
+}
+
+.todo-list {
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-wrapper {
+    display: flex;
+}
+.btn {
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.update {
+    background-color: #0000ff;
+    color: #fff;
+}
+.delete {
+    background-color: #ff0000;
+    color: #fff;
+}
