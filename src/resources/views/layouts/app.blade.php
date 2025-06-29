@@ -9,11 +9,20 @@
     @yield('css')
 </head>
 <body>
+    <!-- 教材の解答↓ -->
     <header class="header">
+    <div class="header__inner">
+        <a class="header__logo" href="/">Todo</a>
+    </div>
+    </header>
+
+    <!-- 自分の解答↓ -->
+    <!-- <header class="header">
         <div class="header-inner">
             <h1 class="header-logo"><a href="/" class="header-link">Todo</a></h1>
         </div>
-    </header>
+    </header> -->
+    
     <main>
         @yield('content')
     </main>
