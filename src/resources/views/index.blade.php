@@ -34,15 +34,34 @@
 
 </div>
 <div class="todo__content">
-    <form class="create-form" action="/todos" method="post">
-        @csrf
-        <div class="create-form__item">
-            <input class="create-form__item-input" type="text" name="content">
-        </div>
-        <div class="create-form__button">
-            <button class="create-form__button-submit" type="submit">作成</button>
-        </div>
-    </form>
+
+    <div class="form-wrapper">
+        <h2 class="">新規作成</h2>
+        <form class="create-form" action="/todos" method="post">
+            @csrf
+            <div class="create-form__item">
+                <input class="create-form__item-input" type="text" name="content">
+                <input class="create-category__item-input" type="text" name="category" value="カテゴリ">
+            </div>
+            <div class="create-form__button">
+                <button class="create-form__button-submit" type="submit">作成</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="form-wrapper">
+        <h2 class="">Todo検索</h2>
+        <form class="create-form" action="/todos" method="post">
+            @csrf
+            <div class="create-form__item">
+                <input class="create-form__item-input" type="text" name="content">
+                <input class="create-category__item-input" type="text" name="category" value="カテゴリ">
+            </div>
+            <div class="create-form__button">
+                <button class="create-form__button-submit" type="submit">検索</button>
+            </div>
+        </form>
+    </div>
     <div class="todo-table">
         <table class="todo-table__inner">
             <tr class="todo-table__row">

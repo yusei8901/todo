@@ -17,7 +17,7 @@
 }
 
 
-/* 自分の解答↓ */
+/* 自分の解答(2章コーディング時)↓ */
 /* .header {
     padding: 10px;
     background-color: #000;
@@ -29,3 +29,14 @@
     color: #fff;
     text-decoration: none;
 } */
+
+/* 自分の解答(3章コーディング時) */
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__category {
+    text-decoration: none;
+    color: #fff;
+}
